@@ -40,6 +40,12 @@ body {
     position: relative;
 }
 
+.card:hover {
+    position: relative;
+    top: -0.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 .card img {
     object-fit: cover;
     width: 100%;
@@ -53,17 +59,6 @@ body {
 .project-text a {
     /* color: #888883; */
     color: #ff6363;
-}
-
-.badge {
-    border-radius: 99999px;
-    padding: 0.5rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(226, 226, 213, 0.9);
-    color: rgba(136, 136, 131, 0.9);
-    margin: 0.5rem;
 }
 
 @media only screen and (max-width: 1000px) {

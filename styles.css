@@ -1,5 +1,10 @@
 :root {
-    --main_color: #5ee0be;
+    --background-color: #ffffff;
+    --text_color: #000000;
+
+    --primary_color: #8FB3FF;
+    --secondary_color: #ebf1ff;
+    --accent_color: #d41d6d;
 }
 
 
@@ -8,13 +13,14 @@
     padding: 0;
     outline: none;
     transition: all 0.5s ease;
-    color: var(--main_color);
-}
 
-body {
+    color: var(--primary_color);
     font-family: Nunito;
+}
+body {
     margin: 10vh, 10vw;
     outline: none;
+    background-color: var(--background-color);
 }
 
 header {
@@ -25,39 +31,78 @@ header {
     width: 100%;
     top: 0;
     z-index: 999;
-    /* padding-left: 50px; */
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: var(--main_color);
+    background-color: var(--primary_color);
     height: 20%;
 }
 
 header a{
     font-weight: bold;
-    top: auto;
     font-size: 22px;
-    display: inline-block;
     text-decoration: none;
-    color: #42211a;
-    width: fit-content;
+    color: var(--text_color);
+
+    display: table;
     vertical-align: middle;
+
+    width: fit-content;
     padding-right: 90px;
 }
 
-#wrapper {
-    display: block;
+#about-section {
+    display: flex;
+
     margin-left: auto;
     margin-right: auto;
+
+    padding-top: 6rem;
     max-width: 120vh;
-    height: 100%;
+    padding: 10vh 20px;
+}
+
+#about-text {
+    
+}
+
+#about-text p {
+    max-width: 25vw;
+}
+
+#about-text h1 {
+    color: var(--text_color);
+    width: max-content;
+    overflow-block:visible
+    /* font-size: 200%; */
+}
+
+#about-text span {
+    background: linear-gradient(to right, var(--primary_color), var(--accent_color));
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#project-wrapper {
+    background-color: var(--secondary_color);
+}
+
+#about-title{
+    color: var(--text_color);
 }
 
 #projects-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 6rem;
+    max-width: 120vh;
     padding: 10vh 20px;
 }
 
 #projects-title {
-    color: #505050;
+    color: var(--text_color);
+    font-weight: 600;
 }
 
 .card-wrapper {
@@ -67,7 +112,10 @@ header a{
 .card {
     margin-top: 70px;
     padding-bottom: 20px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    background-color: var(--background-color);
+
+    /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); */
     border-radius: 0.9rem;
     overflow: hidden;
     position: relative;
@@ -86,18 +134,20 @@ header a{
 }
 
 .project-text h3 {
-    font-size: x-large;
+    font-size: large;
     padding: 1rem;
     padding-bottom: 0.8rem;
 }
 
 .project-text a {
-    color: var(--main_color);
+    color: var(--text_color);
+    text-decoration: none;
 }
 
 .project-text h6 {
+    font-weight: 500;
     font-size: medium;
     padding: 1rem;
     padding-top: 0;
-    color: slategrey;
+    color: var(--text_color);
 }

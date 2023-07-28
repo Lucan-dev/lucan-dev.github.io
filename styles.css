@@ -33,7 +33,7 @@ header {
     z-index: 999;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: var(--primary_color);
+    background-color: var(--accent_color);
     height: 20%;
 }
 
@@ -41,13 +41,12 @@ header a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    color: var(--text_color);
+    color: var(--background-color);
 
     display: table;
     vertical-align: middle;
 
     width: fit-content;
-    padding-right: 90px;
 }
 
 #about-section {
@@ -62,15 +61,20 @@ header a{
 }
 
 #about-text {
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #about-text p {
-    max-width: 25vw;
+    color: var(--text_color);
+    padding-top: 4vh;
+    font-size: calc(1*(1vh + 1vw));
 }
 
 #about-text h1 {
     color: var(--text_color);
+    font-size: calc(2*(1vh + 1vw));
+
     width: max-content;
     overflow-block:visible
     /* font-size: 200%; */
@@ -87,7 +91,9 @@ header a{
 }
 
 #about-title{
+    font-size: calc(2*(1vh + 1vw));
     color: var(--text_color);
+
 }
 
 #projects-section {
@@ -103,10 +109,12 @@ header a{
 #projects-title {
     color: var(--text_color);
     font-weight: 600;
+    font-size: calc(1.6*(1vh + 1vw));
 }
 
 .card-wrapper {
     display: absolute;
+    max-width: 95%;
 }
 
 .card {
@@ -130,11 +138,11 @@ header a{
 .card img {
     object-fit: cover;
     width: 100%;
-    height: 25em;
+    aspect-ratio: 2 / 1;
 }
 
 .project-text h3 {
-    font-size: large;
+    font-size: calc(1*(1vh + 1vw));;
     padding: 1rem;
     padding-bottom: 0.8rem;
 }
@@ -146,7 +154,7 @@ header a{
 
 .project-text h6 {
     font-weight: 500;
-    font-size: medium;
+    font-size: calc(0.7*(1vh + 1vw));;
     padding: 1rem;
     padding-top: 0;
     color: var(--text_color);

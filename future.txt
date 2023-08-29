@@ -1,0 +1,5 @@
+embed content from google drive
+https://stackoverflow.com/questions/15557392/how-do-i-display-images-from-google-drive-on-a-website
+
+adjusts the font-size depending on the window size
+calc(2*(1vh + 1vw))

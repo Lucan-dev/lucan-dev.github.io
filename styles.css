@@ -15,6 +15,10 @@
     font-family: Nunito;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 10vh, 10vw;
     outline: none;
@@ -218,6 +222,8 @@ body {
 
 .project-button {
     display: flex;
+
+    transition: 200ms;
 
     margin-top: auto;
     margin-bottom: auto;

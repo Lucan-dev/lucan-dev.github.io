@@ -1,24 +1,3 @@
-:root {
-    --text_color: #000000;
-    --background_color: #ffffff;
-    --primary_color: #8FB3FF;
-    --secondary_color: #ebf1ff;
-    --accent_color: #d41d6d;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    outline: none;
-
-    font-family: Nunito;
-}
-
-body {
-    background-color: var(--background_color);
-}
-
 .margin_wrapper {
     background-color: var(--background_color);
 
@@ -36,7 +15,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: calc(2*(1vh + 1vw));
+    font-size: calc(2*var(--font_scale));
     width: 100%;
 }
 
@@ -44,20 +23,20 @@ h2 {
     padding-top: 4rem;
     padding-bottom: 1rem;
 
-    font-size: calc(1.5*(1vh + 1vw));
+    font-size: calc(1.5*var(--font_scale));
 }
 
 h3 {
     padding-top: 3rem;
-    font-size: calc(1*(1vh + 1vw));
+    font-size: calc(1*var(--font_scale));
 }
 
 li {
-    font-size: calc(0.8*(1vh + 1vw));
+    font-size: calc(0.8*var(--font_scale));
 }
 
 p {
-    font-size: calc(0.8*(1vh + 1vw));
+    font-size: calc(0.8*var(--font_scale));
 
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -70,7 +49,7 @@ table {
 }
 
 td {
-    font-size: calc(0.8*(1vh + 1vw));
+    font-size: calc(0.8*var(--font_scale));
 
     border: 1px solid black;
 
@@ -82,6 +61,20 @@ tr:nth-child(even){background-color: var(--secondary_color);}
 hr {
     border-color: var(--primary_color);
     background-color: var(--primary_color);
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+
+    display: block;
+
+    font-size: calc(0.7*var(--font_scale));
+    overflow: scroll;
+
+    border-radius: 20px;
+
+    padding: 0px 20px;
 }
 
 .gradient_text {
@@ -141,13 +134,13 @@ hr {
 
     transition: 200ms;
 
-    width: calc(2*(1vh + 1vw));
-    height: calc(2*(1vh + 1vw));
+    width: calc(2*var(--font_scale));
+    height: calc(2*var(--font_scale));
 }
 
 .back_button:hover {
-    width: calc(2.2*(1.5vh + 1vw));
-    height: calc(2.2*(1.5vh + 1vw));
+    width: calc(2.2*var(--font_scale));
+    height: calc(2.2*var(--font_scale));
 }
 
 .youtube_embed {

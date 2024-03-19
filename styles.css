@@ -1,0 +1,341 @@
+:root {
+    --text: #e7effd;
+    --background: #030d1e;
+    --primary: #80a9f5;
+    --secondary: #850e9c;
+    --accent: #ed2fbe;
+
+    --font_scale: (1.5vh + 1vw);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    font-family: Nunito;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  ScrollBar                                 */
+/* -------------------------------------------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(50, 55, 63, 0.486)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #636363; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    Text                                    */
+/* -------------------------------------------------------------------------- */
+
+h1 {
+    color: var(--text);
+
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+    letter-spacing: -1px;
+    font-size: calc(2.9*var(--font_scale));
+}
+
+h2 {
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+
+    font-size: calc(2*var(--font_scale));
+    color: var(--text)
+}
+
+h3 {
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+
+    font-size: calc(1.35*var(--font_scale));
+    color: var(--text)
+}
+
+h4 {
+    padding-top: 0.45vw;
+    padding-bottom:0.45vw;
+
+    font-size: calc(0.9*var(--font_scale));
+    color: var(--text)
+}
+
+h5 {
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+
+    font-size: calc(0.75*var(--font_scale));
+    color: var(--text)
+}
+
+h6 {
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+
+    font-size: calc(0.6*var(--font_scale));
+    color: var(--text)
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Classes                                  */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------- Sections -------------------------------- */
+
+.title-section {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.small-title-section {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 6vw;
+    padding-bottom: 3vw;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-section {
+    background-color: var(--primary);
+
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-button {
+    background-color: var(--background);
+
+    font-size: calc(1*var(--font_scale));
+    font-weight: bold;
+
+    color: var(--text);
+}
+
+.nav-button:hover {
+    background: var(--text);
+    color: var(--background);
+}
+
+.button {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 100px;
+
+    transition: 200ms all;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: fit-content;
+
+    margin-left: auto;
+}
+
+.contact-button img {
+
+    height: 3vw;
+
+    margin-left: 2vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-button img:hover {
+    box-shadow: var(--accent) 0px 20px 80px 10px;
+}
+
+.project-tags {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10vh;
+    padding: calc(0.5*var(--font_scale));
+
+    position: sticky;
+    top: 4vh;
+    width: 100%;
+    z-index: 100;
+
+    text-align: center;
+    background-color: #80a9f5;
+
+    border-radius: 50vh;
+
+    width: fit-content;
+}
+
+.project-tags a {
+    text-decoration: none;
+    color: var(--background);
+
+    font-size: calc(0.9*var(--font_scale));
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-right: 1vw;
+}
+
+.project-tags a:hover {
+    /* color: #be2498; */
+    color: var(--secondary);
+}
+
+.credits {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    margin: 5vw;
+    max-width: 120vh;
+}
+
+.card {
+    background-color: rgba(131, 13, 155, 0.244);
+    border-radius: 1.1rem;
+    overflow: hidden;
+
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
+.card-link {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.project-text {
+    width: fit-content;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-button {
+    text-align: right;
+    margin-left: auto;
+}
+
+.project-button img {
+    width: 2.3rem;
+    height: 2.3rem;
+    vertical-align: middle;
+}
+
+.pattern {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(var(--primary) 0.6000000000000001px, transparent 0.6px), radial-gradient(var(--primary) 0.6px, var(--background) 0.6px);
+    background-size: 24px 24px;
+    background-position: 0 0,12px 12px;
+}
+
+/* --------------------------------- Special -------------------------------- */
+
+/* ---------------------------------- Text ---------------------------------- */
+
+.gradient-text {
+    background: linear-gradient(to right, var(--primary), var(--accent));
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.unbolded {
+    font-weight: lighter;
+}
+
+.bolded {
+    font-weight: bold;
+}

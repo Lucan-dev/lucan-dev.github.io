@@ -81,32 +81,32 @@ h2 {
 }
 
 h3 {
-    padding-top: 0.6vw;
-    padding-bottom: 0.6vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
 
     font-size: calc(1.35*var(--font_scale));
     color: var(--text)
 }
 
 h4 {
-    padding-top: 0.45vw;
-    padding-bottom:0.45vw;
+    padding-top: 0.6vw;
+    padding-bottom:0.6vw;
 
     font-size: calc(0.9*var(--font_scale));
     color: var(--text)
 }
 
 h5 {
-    padding-top: 0.3vw;
-    padding-bottom: 0.3vw;
+    padding-top: 0.45vw;
+    padding-bottom: 0.45vw;
 
     font-size: calc(0.75*var(--font_scale));
     color: var(--text)
 }
 
 h6 {
-    padding-top: 0.2vw;
-    padding-bottom: 0.2vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
 
     font-size: calc(0.6*var(--font_scale));
     color: var(--text)
@@ -210,7 +210,7 @@ h6 {
 }
 
 .contact-button img:hover {
-    box-shadow: var(--accent) 0px 20px 80px 10px;
+    /* box-shadow: var(--accent) 0px 20px 80px 10px; */
 }
 
 .project-tags {
@@ -246,7 +246,6 @@ h6 {
 }
 
 .project-tags a:hover {
-    /* color: #be2498; */
     color: var(--secondary);
 }
 
@@ -277,6 +276,7 @@ h6 {
     object-fit: cover;
     width: 100%;
     aspect-ratio: 2 / 1;
+    image-resolution: 100%;
 }
 
 .card-link {
@@ -309,6 +309,10 @@ h6 {
     height: 2.3rem;
     vertical-align: middle;
 }
+.project-button img:hover {
+    width: 2.6rem;
+    height: 2.6rem;
+}
 
 .pattern {
     background-color: #e5e5f7;
@@ -316,6 +320,24 @@ h6 {
     background-image:  radial-gradient(var(--primary) 0.6000000000000001px, transparent 0.6px), radial-gradient(var(--primary) 0.6px, var(--background) 0.6px);
     background-size: 24px 24px;
     background-position: 0 0,12px 12px;
+}
+
+.home-button-section {
+    max-width: 120vh;
+    width: 100%;
+    align-self: center;
+
+    height: 3rem;
+}
+
+.home-button img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.home-button img:hover {
+    width: 2.8rem;
+    height: 2.8rem;
 }
 
 /* --------------------------------- Special -------------------------------- */

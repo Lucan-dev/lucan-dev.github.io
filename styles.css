@@ -112,6 +112,14 @@ h6 {
     color: var(--text)
 }
 
+p {
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+
+    font-size: calc(0.7*var(--font_scale));
+    color: var(--text)
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                   Classes                                  */
 /* -------------------------------------------------------------------------- */
@@ -260,6 +268,8 @@ h6 {
     align-self: center;
 
     margin: 5vw;
+    /* width: max-content; */
+    width: 100%;
     max-width: 120vh;
 }
 
@@ -277,11 +287,6 @@ h6 {
     width: 100%;
     aspect-ratio: 2 / 1;
     image-resolution: 100%;
-}
-
-.card-link {
-    text-decoration: none;
-    color: var(--text);
 }
 
 .project-text {
@@ -325,9 +330,9 @@ h6 {
 .home-button-section {
     max-width: 120vh;
     width: 100%;
-    align-self: center;
-
     height: 3rem;
+
+    align-self: center;
 }
 
 .home-button img {
@@ -340,7 +345,81 @@ h6 {
     height: 2.8rem;
 }
 
-/* --------------------------------- Special -------------------------------- */
+.scroll-up {
+    width: min-content;
+    align-items: center;
+    display: flex;
+
+    margin-right: auto; 
+    margin-left: auto;
+    margin-bottom: 10vh;
+
+    font-size: calc(0.9*var(--font_scale));
+
+    /* visual styling */
+    text-decoration: none;
+    padding: 0.9rem;
+    color: var(--background);
+    background: var(--primary);
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.scroll-up:hover {
+    background-color: var(--accent);
+}
+
+.scroll-up img{
+    height: calc(1*var(--font_scale));
+}
+
+.achievement-photo {
+    height: 17vh;
+    width: 17vh;
+}
+
+.achievement-card {
+    background-color: rgba(131, 13, 155, 0.244);
+    border-radius: 1.1rem;
+    overflow: hidden;
+
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    padding: 1.5rem;
+}
+
+.volunteering-table, th, tr, td {
+    border: 1px solid var(--background);
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+
+.volunteering-table th {
+    color: var(--background);
+    font-size: calc(0.9*var(--font_scale));
+}
+
+.volunteering-table td {
+    color: var(--text);
+    font-size: calc(0.7*var(--font_scale));
+}
+
+.volunteering-table, th {
+    background-color: var(--primary);
+}
+
+.volunteering-table tr:nth-child(even) {
+    background-color: #2c0643
+}
+.volunteering-table tr:nth-child(odd) {
+    background-color: #400963
+}
+
+.certification-photo {
+    max-width: 50vh;
+    max-height: auto;
+    width: 100%;
+}
 
 /* ---------------------------------- Text ---------------------------------- */
 

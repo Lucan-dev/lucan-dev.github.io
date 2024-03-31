@@ -416,9 +416,9 @@ p {
 }
 
 .certification-photo {
-    max-width: 50vh;
-    max-height: auto;
     width: 100%;
+    max-height: auto;
+    padding-top: 0.45vw;
 }
 
 /* ---------------------------------- Text ---------------------------------- */

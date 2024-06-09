@@ -177,7 +177,7 @@ p {
     .nav-button {
         margin-top: 1.5vh;
         margin-bottom: 1.5vh;
-        width: 80vw;
+        min-width: 60vw;
         text-align: center;
     }
 }
@@ -351,18 +351,28 @@ p {
     max-width: 120vh;
     width: 100%;
     height: 3rem;
-
     align-self: center;
 }
 
+.home-button {
+    vertical-align: middle;
+    height: 3rem;
+    width: 3rem;
+}
+
 .home-button img {
-    width: 2.5rem;
-    height: 2.5rem;
+    vertical-align: middle;
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
 }
 
 .home-button img:hover {
-    width: 2.8rem;
-    height: 2.8rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .scroll-up {

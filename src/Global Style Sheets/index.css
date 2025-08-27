@@ -1,22 +1,24 @@
 :root[data-theme="light"] {
-    --text: #10090a;
-    --background: #fbf6f7;
-    --primary: #ec364f;
-    --secondary: #72dbf6;
-    --accent: #f1c40e;
+  --text: #10090a;
+  --background: #fbf6f7;
+  --primary: #ec364f;
+  --secondary: #72dbf6;
+  --accent: #f1c40e;
+  --nav: hsl(348, 48%, 90%);
 }
 
 :root[data-theme="dark"] {
-    --text: #f6eff0;
-    --background: #0b0506;
-    --primary: #c9132b;
-    --secondary: #09718b;
-    --accent: #f1c40e;
+  --text: #f6eff0;
+  --background: #0b0506;
+  --primary: #c9132b;
+  --secondary: #09718b;
+  --accent: #f1c40e;
+  --nav: #1e1c1c;
 }
 
 :root {
-    --maxPhoneWidth: 800px;
-    --maxTabletWidth: 1200px;
+  --maxPhoneWidth: 800px;
+  --maxTabletWidth: 1200px;
 }
 
 * {
@@ -37,7 +39,7 @@ body {
     background-color: var(--background);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
     color: var(--text);
 }
 
@@ -77,8 +79,26 @@ h6 {
   font-weight: 500;
 }
 
-p {
+p, li {
   font-size: clamp(0.95rem, 1vw + 0.5rem, 1.1rem);
   font-weight: 400;
   line-height: 1.6;
+}
+
+a {
+  font-size: clamp(0.95rem, 1vw + 0.5rem, 1.1rem);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--primary);
+}
+
+a:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: var(--primary);
+}
+
+.gradient {
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }

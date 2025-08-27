@@ -1,0 +1,23 @@
+.technologies {
+    /* top left bottom right*/
+    padding: 100px 30px 0px 30px;
+    max-width: 840px;
+    margin: 0px auto;
+}
+
+.technologies ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: disc inside;
+}
+
+.technologies li::marker {
+    color: var(--primary);
+}
+
+@media (max-width: var(--maxPhoneWidth)) {
+    .technologies {
+        padding: 100px 20px 0px 20px;
+        background-color: aqua;
+    }
+}

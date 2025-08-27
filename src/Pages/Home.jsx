@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
+import './Style Sheets/Home.css'
+import Intro from '../Components/Intro'
 
 function Home() {
     return(
         <>
-            <h1>Home Page</h1>
-            <Link to="/projects">Projects</Link>
+            <Intro/>
         </>
     );
 }

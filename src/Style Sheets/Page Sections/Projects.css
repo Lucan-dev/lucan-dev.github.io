@@ -1,0 +1,15 @@
+#projects h3 {
+    text-align: center;
+}
+
+.project-wrapper {
+    background-color: var(--background);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 410px));
+
+    margin: 20px 0px 0px 0px;
+
+    gap: 20px;
+    justify-content: center;
+}

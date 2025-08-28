@@ -1,4 +1,4 @@
-import './Style Sheets/experience.css'
+import '../../Style Sheets/Page Sections/Experience.css'
 import { useState } from "react";
 
 function Experience() {
@@ -127,7 +127,7 @@ function Experience() {
                         {exp_title} <a href={exp_link} target="_blank">@ {exp_org}</a>
                     </h6>
 
-                    <p>{exp_type}: {exp_date}</p>
+                    <p><span className="experience-type">{exp_type}:</span> {exp_date}</p>
 
                     <br/>
                     <ul>

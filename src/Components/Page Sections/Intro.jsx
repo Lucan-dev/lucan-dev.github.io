@@ -1,4 +1,4 @@
-import './Style Sheets/intro.css'
+import '../../Style Sheets/Page Sections/Intro.css'
 
 function Intro() {
     return (

@@ -1,4 +1,4 @@
-import './Style Sheets/technologies.css'
+import '../../Style Sheets/Page Sections/Technologies.css'
 
 function Technologies() {
     return (

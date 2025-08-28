@@ -14,6 +14,8 @@
     max-width: 300px;
     height: 60px;
 
+    overflow: hidden;
+
     background-color: var(--primary);
     transition: transform 0.2s ease;
 }
@@ -24,5 +26,8 @@
 
 .button-link {
     color: var(--background);
-    text-decoration: none;;
+    text-decoration: none;
+    align-content: center;
+    width: 100%;
+    height: 100%;
 }

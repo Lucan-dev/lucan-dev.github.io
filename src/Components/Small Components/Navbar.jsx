@@ -1,3 +1,4 @@
+import '../../Style Sheets/Small Components/Navbar.css'
 import { Link } from 'react-router-dom'
 
 function Navbar() {

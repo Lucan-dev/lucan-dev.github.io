@@ -1,4 +1,4 @@
-import './Style Sheets/MoreButton.css'
+import '../../Style Sheets/Small Components/MoreButton.css'
 import { Link } from 'react-router-dom'
 
 function MoreButton({text, link}) {

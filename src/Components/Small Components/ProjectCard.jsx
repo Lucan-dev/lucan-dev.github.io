@@ -1,4 +1,4 @@
-import './Style Sheets/projects.css'
+import '../../Style Sheets/Small Components/ProjectCard.css'
 
 function ProjectCard({img_url, img_alt, title, description}) {
 

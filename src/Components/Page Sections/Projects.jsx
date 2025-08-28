@@ -1,6 +1,6 @@
-import './Style Sheets/projects.css'
-import ProjectCard from './ProjectCard';
-import MoreButton from './MoreButton';
+import '../../Style Sheets/Page Sections/Projects.css'
+import ProjectCard from '../Small Components/ProjectCard';
+import MoreButton from '../Small Components/MoreButton';
 
 function Projects() {
 

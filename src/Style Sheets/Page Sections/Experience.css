@@ -48,13 +48,21 @@
 @media (max-width: 800px) {
     .experience-wrapper {
         flex-direction: column;
-        gap: 10px
+        gap: 20px
     }
     .buttons-wrapper {
         width: 100%;
-        max-width: 410px;
+        max-width: none;
     }
     .buttons-wrapper button {
-        max-width: 410px;
+        max-width: none;
     }
+}
+
+.experience-type {
+    font-weight: 500;
+}
+
+.experience-content li + li {
+    padding-top: 10px;
 }

@@ -4,7 +4,7 @@
   --primary: #ec364f;
   --secondary: #72dbf6;
   --accent: #f1c40e;
-  --nav: hsl(348, 48%, 90%);
+  --nav: hsl(351, 44%, 92%);
 }
 
 :root[data-theme="dark"] {

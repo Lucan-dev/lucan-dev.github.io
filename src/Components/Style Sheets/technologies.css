@@ -14,10 +14,3 @@
 .technologies li::marker {
     color: var(--primary);
 }
-
-@media (max-width: var(--maxPhoneWidth)) {
-    .technologies {
-        padding: 100px 20px 0px 20px;
-        background-color: aqua;
-    }
-}

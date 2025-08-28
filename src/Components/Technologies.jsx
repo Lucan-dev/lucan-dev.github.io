@@ -2,7 +2,7 @@ import './Style Sheets/technologies.css'
 
 function Technologies() {
     return (
-        <div className="technologies">
+        <div className="content-wrapper" id="technologies">
             <h3>About Me</h3>
             <p>I am passionate about STEM, with strong skills in engineering, robotics, and computer science. I enjoy building innovative solutions and using technology to solve real-world problems.</p>
             <br/>

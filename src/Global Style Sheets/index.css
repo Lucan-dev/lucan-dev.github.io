@@ -97,8 +97,25 @@ a:hover {
   text-decoration-color: var(--primary);
 }
 
+ul {
+  list-style: disc inside;
+  list-style-position: inside;
+}
+
+li {
+  text-indent: -1.45em;
+  padding-left: 1.5em; 
+}
+
 .gradient {
   background: linear-gradient(to right, var(--primary), var(--accent));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.content-wrapper {
+  /* top left bottom right*/
+  padding: 100px 30px 0px 30px;
+  max-width: 840px;
+  margin: 0px auto;
 }

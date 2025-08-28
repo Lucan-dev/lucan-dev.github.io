@@ -1,0 +1,60 @@
+#experience h3 {
+    text-align: center;
+}
+
+#experience a {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 500;
+}
+
+.experience-wrapper {
+    display: flex;
+    flex-direction: horizontal;
+    margin: 20px 0px 0px 0px;
+    gap: 40px
+}
+
+.buttons-wrapper {
+    width: max-content;
+    max-width: 200px;
+}
+
+.buttons-wrapper button {
+    width: 100%;
+    max-width: 200px;
+
+    text-align: left;
+    cursor: pointer;
+
+    border: none;
+    border-left: 2px solid var(--text);
+
+    background-color: var(--background);
+}
+
+.buttons-wrapper button:hover {
+    background-color: var(--nav);
+}
+
+.buttons-wrapper p {
+    margin: 8px 15px 8px 15px;
+}
+
+.selected {
+    border-left: 2px solid var(--primary) !important;
+    background-color: var(--nav) !important; /* Override default background color */
+}
+
+@media (max-width: 800px) {
+    .experience-wrapper {
+        flex-direction: column;
+        gap: 10px
+    }
+    .buttons-wrapper {
+        width: 100%;
+        max-width: 410px;
+    }
+    .buttons-wrapper button {
+        max-width: 410px;
+    }
+}

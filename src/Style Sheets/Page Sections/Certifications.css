@@ -1,0 +1,16 @@
+#certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 500px) {
+    #certifications {
+        gap: 40px
+    }
+}
+
+#certifications h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}

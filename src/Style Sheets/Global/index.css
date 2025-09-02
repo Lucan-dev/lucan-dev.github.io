@@ -119,3 +119,7 @@ li {
   max-width: 840px;
   margin: 0px auto;
 }
+
+.colored-text {
+  color: var(--primary);
+}

@@ -1,0 +1,52 @@
+#footer {
+    margin-top: 100px;
+    padding: 30px;
+
+    background-color: var(--nav);
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+
+    transition: transform 0.15s ease;
+}
+
+#footer svg {
+    color: var(--text);
+
+    width: 80%;
+    height: 80%;
+    transition: transform 0.15s ease;
+}
+
+#footer a:hover svg {
+    transform: scale(1.1);
+}
+
+#footer-bottom {
+    margin-top: 20px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-info {
+    width: fit-content;
+}
+
+#contact-info p {
+    text-align: left;
+}

@@ -10,28 +10,28 @@ function Technologies() {
             <br/>
             <ul>
                 <li>
-                    <a href="https://pros.cs.purdue.edu/" target="_blank">PROS</a>
+                    PROS
                 </li>
                 <li>
-                    <a href="https://www.onshape.com/en/" target="_blank">Onshape</a>
+                    Onshape
                 </li>
                 <li>
-                    <a href="https://www.autodesk.com/ca-en/products/fusion-360/overview/" target="_blank">Fusion 360</a>
+                    Fusion 360
                 </li>
                 <li>
-                    <a href="https://www.python.org/about/" target="_blank">Python</a>
+                    Python
                 </li>
                 <li>
-                    <a href="https://learn.microsoft.com/en-us/cpp/cpp/" target="_blank">C++</a>
+                    C++
                 </li>
                 <li>
-                    <a href="https://react.dev/" target="_blank">React JS</a>
+                    React.js
                 </li>
                 <li>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
+                    HTML
                 </li>
                 <li>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
+                    CSS
                 </li>
             </ul>
         </div>

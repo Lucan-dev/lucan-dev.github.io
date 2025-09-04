@@ -1,9 +1,9 @@
 import '../../Style Sheets/Small Components/ProjectCard.css'
 
-function ProjectCard({img_url, img_alt, title, description}) {
+function ProjectCard({img_url, img_alt, title, description, link}) {
 
     return (
-        <a href="https://youtube.com" target="_blank" className="project-card" id="project-link">
+        <a href={link} target="_blank" className="project-card" id="project-link">
             <div>
                 <img src={img_url} alt={img_alt}/>
                 <div className="card-bottom">

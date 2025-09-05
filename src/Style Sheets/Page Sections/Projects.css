@@ -13,3 +13,9 @@
     gap: 20px;
     justify-content: center;
 }
+
+@media (max-width: 500px) {
+    .project-wrapper {
+        gap: 40px
+    }
+}

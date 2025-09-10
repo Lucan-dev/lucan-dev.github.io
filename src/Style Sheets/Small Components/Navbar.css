@@ -53,8 +53,8 @@
 
 .menu-button svg {
     color: var(--text);
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -96,6 +96,8 @@
 
         transition-duration: 0.1s;
         transition-delay: 0s;
+        
+        text-decoration-color: var(--primary);
     }
 
     .other-nav-links.open .link {

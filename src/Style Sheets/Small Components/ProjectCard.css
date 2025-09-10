@@ -9,6 +9,8 @@
     cursor: pointer;
 
     position: relative;
+    box-shadow: 0px 0px 15px var(--shadow);
+    border: 2px solid var(--shadow);
 }
 
 .project-card img {
@@ -39,7 +41,7 @@
 
     padding: 1rem;
     background-color: var(--background);
-    background-color: var(--nav);
+    /* background-color: var(--nav); */
 
     position: relative;
     z-index: 1;
@@ -47,4 +49,23 @@
 
 #project-link {
     text-decoration: none;
+}
+
+.tags {
+    list-style-type: none;
+    overflow: none;
+
+    display: flex;
+    gap: 10px;
+}
+
+.tags li {
+    background-color: var(--nav);
+    border-radius: 999px;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-indent: 0px;
+
+    font-size: clamp(0.85rem, 1vw + 0.5rem, 1rem);
 }

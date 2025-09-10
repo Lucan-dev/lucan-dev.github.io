@@ -1,19 +1,23 @@
 :root[data-theme="light"] {
   --text: #10090a;
+  --muted_text: #5b5152;
   --background: #fbf6f7;
   --primary: #ec364f;
   --secondary: #72dbf6;
   --accent: #f1c40e;
-  --nav: hsl(351, 44%, 92%);
+  --nav: #f4e2e4;
+  --shadow: #f4e2e4;
 }
 
 :root[data-theme="dark"] {
   --text: #f6eff0;
+  --muted_text: #c5c0c1;
   --background: #0b0506;
   --primary: #c9132b;
   --secondary: #09718b;
   --accent: #f1c40e;
   --nav: #1e1c1c;
+  --shadow: #1e1c1c;
 }
 
 :root {
@@ -83,6 +87,7 @@ p, li {
   font-size: clamp(0.95rem, 1vw + 0.5rem, 1.1rem);
   font-weight: 400;
   line-height: 1.4;
+  color: var(--muted_text);
 }
 
 a {
@@ -104,7 +109,11 @@ ul {
 
 li {
   text-indent: -1.45em;
-  padding-left: 1.5em; 
+  padding-left: 1.5em;
+}
+
+li::marker {
+  color: blue;
 }
 
 .gradient {

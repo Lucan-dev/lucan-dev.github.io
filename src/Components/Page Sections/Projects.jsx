@@ -11,30 +11,34 @@ function Projects() {
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/Password%20manager.png' img_alt='Alt'
                     title='Encrypted Password Manager'
-                    description='Coded in Python with Fernet & CustomTkinter libraries'
+                    description='Password manager with search function and encrypted data storage'
+                    tags={["Python", "Tkinter", "Fernet"]}
                 />
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/TicTacToe-cropped'
                     img_alt='Alt'
                     title='User vs Computer TicTacToe'
-                    description='Play against a challenging but beatable computer algorithm'
+                    description='Command line game where user plays against TicTacToe algorithm'
                     link='https://trinket.io/python/09a150958d?outputOnly=true&runOption=run'
+                    tags={["Python"]}
                 />
                 <ProjectCard
                 img_url='https://ik.imagekit.io/lucan/NumberSorter2.png'
                 img_alt='Alt'
                 title='Sorting Algorithm Visualizer'
-                description='Sorts numbers using Bubble Sort and Insertion Sort algorithms'
+                description='Customizable program that sorts numbers using Bubble Sort & Insertion Sort algorithms'
                 link='https://trinket.io/python3/95a868d558?toggleCode=true&runOption=run'
+                tags={["Python"]}
                 />
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/wordle.png'
                     img_alt='Alt'
                     title='Infinite Wordle'
                     description='Graphical word guessing game with ulimited plays per day'
+                    tags={["Python", "Tkinter"]}
                 />
             </div>
-            <MoreButton text='More Projects' link='/projects'/>
+            <MoreButton text='All Projects' link='/projects'/>
         </div>
     );
 }

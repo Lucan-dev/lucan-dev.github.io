@@ -1,12 +1,50 @@
-#technologies ul {
+/* #technologies ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+} */
+
+#technologies ul {
+    list-style-type: none;
 }
 
-#technologies li::marker {
-    color: var(--text);
-}
+/* #technologies li {
+    marker: none;
+} */
+
+/* #technologies li::marker {
+    color: var(--muted_text);
+    color: var(--background)
+} */
 
 #technologies h3 {
     margin-bottom: 10px;
+}
+
+#technologies h6 {
+    margin: 15px 0px 5px 0px;
+    font-size: clamp(0.9rem, 2vw, 1.15rem);
+    color: var(--primary);
+}
+
+.technology-sections {
+    /* background-color: lightcoral; */
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.technology-section {
+    width: fit-content;
+}
+
+@media (max-width: 540px) {
+    .technology-sections {
+        flex-direction: column;
+    }
+
+    .technology-section {
+        text-align: left;
+    }
 }

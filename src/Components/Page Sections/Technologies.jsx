@@ -7,33 +7,38 @@ function Technologies() {
             <p>I am passionate about STEM, with strong skills in engineering, robotics, and computer science. I enjoy building innovative solutions and using technology to solve real-world problems.</p>
             <br/>
             <p>Here's some technologies I've been working with recently:</p>
-            <br/>
-            <ul>
-                <li>
-                    PROS
-                </li>
-                <li>
-                    Onshape
-                </li>
-                <li>
-                    Fusion 360
-                </li>
-                <li>
-                    Python
-                </li>
-                <li>
-                    C++
-                </li>
-                <li>
-                    React.js
-                </li>
-                <li>
-                    HTML
-                </li>
-                <li>
-                    CSS
-                </li>
-            </ul>
+
+            <div className="technology-sections">
+                <div className="technology-section">
+                    <h6>Programming</h6>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div className="technology-section">
+                    <h6>Frameworks & Libraries</h6>
+                    <ul>
+                        <li>React.js</li>
+                        <li>LemLib</li>
+                        <li>PROS</li>
+                        <li>Tkinter</li>
+                    </ul>
+                </div>
+
+                <div className="technology-section">
+                    <h6>Design & CAD</h6>
+                    <ul>
+                        <li>Onshape</li>
+                        <li>Fusion 360</li>
+                        <li>Bambu Studio</li>
+                        <li>Protobot</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 }

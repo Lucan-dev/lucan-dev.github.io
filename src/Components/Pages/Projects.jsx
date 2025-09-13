@@ -73,20 +73,20 @@ function Projects() {
             <h5>Websites</h5>
             <div className="project-wrapper">
                 <ProjectCard
-                    img_url='https://ik.imagekit.io/lucan/Space.jpg'
-                    img_alt='Alt'
-                    title='Astronomy Picture of the Day'
-                    description="Website showcases daily space images and insights using NASA's API"
-                    link='https://apod-api.netlify.app'
-                    tags={["Javascript", "HTML", "CSS"]}
-                />
-                <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/Hands%20of%20Fate.png'
                     img_alt='Alt'
                     title='AI Blackjack Game'
                     description="Gesture controlled website with image recognition model"
                     link='https://hands-of-fate-blackjack.netlify.app'
                     tags={["Google Teachable Machine", "Javascript"]}
+                />
+                <ProjectCard
+                    img_url='https://ik.imagekit.io/lucan/Space.jpg'
+                    img_alt='Alt'
+                    title='Astronomy Picture of the Day'
+                    description="Website showcases daily space images and insights using NASA's API"
+                    link='https://apod-api.netlify.app'
+                    tags={["Javascript", "HTML", "CSS"]}
                 />
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/trivia-transformed.jpeg'

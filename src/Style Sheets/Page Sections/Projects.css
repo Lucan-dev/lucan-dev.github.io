@@ -11,11 +11,15 @@
     margin: 20px 0px 0px 0px;
 
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 @media (max-width: 500px) {
     .project-wrapper {
         gap: 40px
     }
+}
+
+#projects h5 {
+    padding-top: 60px;
 }

@@ -30,6 +30,10 @@ function Navbar() {
 
             {/* Navigation Link */}
             <div className={`other-nav-links ${isOpen ? "open" : ""}`}>
+                <Link className="link" to="/" onClick={() => setIsOpen(false)}>
+                    Home
+                </Link>
+
                 <Link className="link" to="/projects" onClick={() => setIsOpen(false)}>
                     Projects
                 </Link>

@@ -2,15 +2,15 @@ import '../../Style Sheets/Small Components/CertificateCard.css'
 
 function CertificateCard({img_url, img_alt, title, date, description}) {
     return (
-        <div className="certificate-card">
+        <a className="certificate-card"  href={img_url} target="_blank">
             <img src={img_url} alt={img_alt}/>
 
-            <div className="certificate-text">
+            <a className="certificate-text">
                 <p id="date">{date}</p>
                 <h5>{title}</h5>
                 <p>{description}</p>
-            </div>
-        </div>
+            </a>
+        </a>
     );
 }
 

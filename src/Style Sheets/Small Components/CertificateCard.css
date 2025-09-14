@@ -50,20 +50,14 @@
     padding: 5px 0px;
 }
 
-@media (max-width: 800px) {
-    .certificate-card img {
-        max-width: 180px;
-    }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .certificate-card {
         flex-direction: column;
         align-items: center;
     }
 
     .certificate-card img {
-        max-width: 400px;
+        max-width: 380px;
     }
 }
 

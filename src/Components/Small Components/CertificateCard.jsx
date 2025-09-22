@@ -7,7 +7,7 @@ function CertificateCard({img_url, img_alt, title, date, description}) {
 
             <a className="certificate-text">
                 <p id="date">{date}</p>
-                <h5>{title}</h5>
+                <h6>{title}</h6>
                 <p>{description}</p>
             </a>
         </a>

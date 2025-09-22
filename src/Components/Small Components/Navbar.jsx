@@ -41,10 +41,6 @@ function Navbar() {
                 <Link className="link" to="/certifications" onClick={() => setIsOpen(false)}>
                     Certifications
                 </Link>
-
-                <Link className="link" to="/achievements" onClick={() => setIsOpen(false)}>
-                    Achievements
-                </Link>
             </div>
         </nav>
     );

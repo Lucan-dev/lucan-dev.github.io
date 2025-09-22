@@ -4,7 +4,7 @@ function Technologies() {
     return (
         <div className="content-wrapper" id="technologies">
             <h3>About Me</h3>
-            <p>I am passionate about STEM, with strong skills in engineering, robotics, and computer science. I enjoy building innovative solutions and using technology to solve real-world problems.</p>
+            <p>Whether I am designing mechanical systems or programming control algorithms, I enjoy the challenge solving complex problems. I am always looking for opportunities to learn and apply my skills to real-world challenges.</p>
             <br/>
             <p>Here's some technologies I've been working with recently:</p>
 

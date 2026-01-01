@@ -20,6 +20,7 @@ function Projects() {
                     title='Ballbot 2024'
                     description='Triball shooting and grappling robot for VEX Over Under World Championship'
                     tags={["VEX Robotics"]}
+                    clickable="not"
                 />
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/Robot4.JPG' img_alt='Alt'
@@ -44,6 +45,7 @@ function Projects() {
                     title='Encrypted Password Manager'
                     description='Password manager with search function and encrypted data storage'
                     tags={["Python", "Tkinter", "Fernet"]}
+                    clickable='not'
                 />
                 <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/TicTacToe-cropped'
@@ -67,6 +69,7 @@ function Projects() {
                     title='Infinite Wordle'
                     description='Graphical word guessing game with ulimited plays per day'
                     tags={["Python", "Tkinter"]}
+                    clickable='not'
                 />
             </div>
 
@@ -107,6 +110,18 @@ function Projects() {
                     description='Functional and decorative pieces made using different wood, tools, and techniques'
                     link='https://photos.app.goo.gl/LuZRV7PdyhawKJDx9'
                     tags={["Woodwork 10"]}
+                />
+            </div>
+
+            <h5>Engineering Notebook</h5>
+            <div className="project-wrapper">
+                <ProjectCard
+                    img_url='https://ik.imagekit.io/lucan/1011X%20Notebook.png'
+                    img_alt='Alt'
+                    title='VEX High Stakes Notebook 2025'
+                    description='In depth documentation of the design process and project development for 2024-2025 season'
+                    link='https://docs.google.com/presentation/d/1Iard1UWbWB82WDnOBlcc0owT2b1HDM37W8Pjwcu_yqg/edit?usp=sharing'
+                    tags={["VEX Robotics"]}
                 />
             </div>
         </div>

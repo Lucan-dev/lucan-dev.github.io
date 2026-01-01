@@ -1,9 +1,9 @@
 import '../../Style Sheets/Small Components/ProjectCard.css'
 
-function ProjectCard({img_url, img_alt, title, description, link, tags}) {
+function ProjectCard({img_url, img_alt, title, description, link, tags, clickable="clickable"}) {
 
     return (
-        <a href={link} target="_blank" className="project-card" id="project-link">
+        <a href={link} target="_blank" className={"project-card" + " "+ clickable} id="project-link">
             <div>
                 <img src={img_url} alt={img_alt}/>
 

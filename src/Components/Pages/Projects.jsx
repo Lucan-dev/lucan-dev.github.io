@@ -84,6 +84,14 @@ function Projects() {
                     tags={["Google Teachable Machine", "Javascript"]}
                 />
                 <ProjectCard
+                    img_url='https://ik.imagekit.io/lucan/Cybersecurity%20and%20AI%20Website.png'
+                    img_alt='Alt'
+                    title='Cybersecurity and AI'
+                    description="Website for school district's Cybersecurity and AI course"
+                    link='https://cybersecurityand.ai/'
+                    tags={[]}
+                />
+                <ProjectCard
                     img_url='https://ik.imagekit.io/lucan/Space.jpg'
                     img_alt='Alt'
                     title='Astronomy Picture of the Day'
